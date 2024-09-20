@@ -61,7 +61,7 @@ public class CardTrick {
         
         if (userCard.getValue() == luckyCard.getValue() && userCard.getSuit().equals(luckyCard.getSuit())) {
             System.out.println("Congratulations! You picked the lucky card!");
-        else{
+        }else{
             System.out.println("womp womp you didn't pick the lucky card.");
         }
     }
