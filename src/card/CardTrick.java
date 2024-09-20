@@ -55,9 +55,9 @@ public class CardTrick {
         }
         
         Card luckyCard = new Card();
-        luckyCard.setValue(2);
-        luckyCard.setSuit("Clubs");
-        System.out.println("The lucky card is: 2 of Clubs");
+        luckyCard.setValue(7);
+        luckyCard.setSuit("Spades");
+        System.out.println("The lucky card is: 7 of Spades");
         
         if (userCard.getValue() == luckyCard.getValue() && userCard.getSuit().equals(luckyCard.getSuit())) {
             System.out.println("Congratulations! You picked the lucky card!");
